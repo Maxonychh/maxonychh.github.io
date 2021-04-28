@@ -1,0 +1,196 @@
+body{
+	font-family: 'Russo One','Georgia', sans-serif; 
+	color: #fff;
+	background-color: #131212;
+}
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.main{
+	background: url(../img/contacts_bg.jpg) no-repeat center center / cover ;
+	height: 100vh;
+}
+ .margin__0px{
+	margin: 0px;
+}
+.logo__section{
+	padding-left: 12vh;
+    padding-top: 2vh;
+}
+.hamburger{
+	display: inline-table;
+	color: #fff;
+	font-size: 45px;
+	padding-top: 3vh;
+	/*padding-left: 3vh;
+	margin: 0 auto;
+	 position: relative;*/
+	z-index: 1;
+    position: absolute;
+    left: 93vh;
+}
+.menu__items{
+	margin: 0px;
+	list-style: none;	
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	display: -webkit-inline-box;
+	padding-top: 6vh;
+
+}
+.menu__items_conf {
+	text-decoration: none;
+	color: #fff;
+	padding-right: 20px;
+	padding-left: 45px;
+}
+.menu__items_conf:hover{
+	text-decoration: none;
+	color: #575757;
+	transition: 0.4s ease all;
+}
+.contacts{
+	font-size: 48px;
+	padding-top: 5vh;
+	padding-left: 25vh;
+}
+.contacts__info__f{
+	font-family: 'Russo One';
+	font-size: 25px;
+	margin: 0px;
+	padding-top: 2vh;
+	padding-left: 30vh;
+	text-align: justify;
+}
+.contacts__info__s{
+	font-family: 'Georgia';
+	font-size: 18px;
+	margin: 0px;
+	padding-top: 4vh;
+	padding-left: 30vh;
+	font-style: italic;
+	width: 64%;
+}
+.form__ask__us{
+	padding-left: 15vh;
+    padding-top: 5vh;
+}
+.form__ask__us__param{
+	display: inline-block;
+    width: 80%;
+}
+.form__control{
+	background-color: transparent;
+	width: 100%;
+	font-family: 'Georgia';
+	font-size: 18px;
+	margin: 0px;
+	font-style: italic;
+	display: block;
+    border: none;
+    border-color: #f4f4f4;
+    border-bottom: 1px solid;
+    color: #fff;
+    resize: none;
+}
+.form__control:focus{
+	outline: none;
+}
+.form__email{
+	padding-top: 3vh;
+}
+.form__text{    
+	padding-top:  15vh;
+}
+.contact__submit{
+    display: block;
+	background: transparent;
+    border: 1px solid;
+    border-color: #575757;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Russo One';
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+	margin-top: 4vh;
+}
+.contact__submit:hover{
+	transition: 0.4s ease all;
+	color: #0f0f0f;
+	background-color: #fff;
+	text-decoration: none;
+}
+.our__links{
+	list-style: none;
+	display: block;
+	padding-top: 15vh;
+    padding-left: 30vh;
+}
+.our__links__item{
+	display:inline-block;
+	padding-right: 3vh;
+}
+.our__links__youtube{
+	display: block;
+	color: #ff0000; 
+	/*background-color: #fff;
+	background-size: 2px 2px; */
+	font-size: 50px;
+}
+.our__links__youtube:hover{
+	color: #ff0000; 
+	/*background-color: #fff; */
+}
+/*.youtube{
+	height: 20px;
+	width: 20px;
+	
+}*/
+.our__links__vk{
+	font-size: 50px;
+	color: #4a76a8;
+}
+.our__links__vk:hover{
+	font-size: 50px;
+	color: #4a76a8;
+}
+.main__menu{
+	overflow: hidden;
+	position: absolute;
+	height: 100vh;
+    background: #0f0f0f;
+   	display: none;
+   	transition: 1s ease;
+}
+.main__menu__open{
+	z-index: 1;
+	display: block;
+	transition: top 1s ease;
+}
+
+.main__menu__items{
+	list-style: none;
+	text-decoration: none;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 20vh;
+
+}
+.main__menu__item {
+	padding-top: 2vh;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Russo One', sans-serif; 
+	font-size: 35px;
+	display: block;
+	text-align: center;
+}
+.main__menu__item:hover{
+	text-decoration: none;
+	color: #fff;
+
+}
